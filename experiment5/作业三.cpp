@@ -54,7 +54,7 @@ int main(){
 			case 1:Square();break;
 			case 2:Diamond();break;
 			case 3:Triangle();break;
-			defult:cout<<"Wrong!"<<endl;op=1;
+			default:cout<<"Wrong!"<<endl;op=1;
 		}
 		while(1&&!flag){
 			cout<<"Do you want to continue  (y or n)?: ";
